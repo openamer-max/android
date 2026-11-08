@@ -33,9 +33,9 @@ https://raw.githubusercontent.com/openamer-max/android/main/OpenAmer-1.1.0-andro
 | Version | Signaturzertifikat |
 |---|---|
 | 1.1.0, 1.2.0 | Original: `CN=OpenAmer, OU=Mobile Division, O=OpenAmer AGI/ASI, L=Stuttgart, C=DE` |
-| **1.3.0** | Neu: `CN=OpenAmer, OU=OpenAmer-max, O=Amer Sacirovic, L=Glattal, C=CH` |
+| **1.3.0, 1.3.1** | Neu: `CN=OpenAmer, OU=OpenAmer-max, O=Amer Sacirovic, L=Glattal, C=CH` |
 
-Der private Schlüssel der Original-Builds lag nicht vor, deshalb ist 1.3.0 mit
+Der private Schlüssel der Original-Builds lag nicht vor, deshalb sind 1.3.0/1.3.1 mit
 einem **neuen Schlüssel** signiert.
 
 **Folge:** Wer 1.1.0 oder 1.2.0 installiert hat, muss diese **zuerst
