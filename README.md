@@ -12,8 +12,9 @@ Immer die aktuellste Version — der Link bleibt gleich.
 
 | Version | Größe | SHA-256 (Anfang) | Was drin ist | Download |
 |---|---|---|---|---|
-| **1.3.1** | 616 KB | `f3ffbda1…` | **Retrieval-Fixes** (Skill-Erkennung, Autor-Frage) — 85 % → 95 % im Eval | [openamer-latest.apk](https://github.com/openamer-max/android/releases/download/v1.3.1/openamer-latest.apk) |
-| 1.3.0 | 616 KB | `3084601b…` | RAG-Wissensbasis eingebaut (43 Fakten + 165 Skills) | [openamer-latest-1.3.0.apk](https://github.com/openamer-max/android/releases/download/v1.3.0/openamer-latest.apk) |
+| **1.3.2** | 616 KB | `fec61a1f…` | RAG + Retrieval-Fixes, **Originalsignatur** | [openamer-latest.apk](https://github.com/openamer-max/android/releases/download/v1.3.2/openamer-latest.apk) |
+| 1.3.1 | 616 KB | `f3ffbda1…` | Retrieval-Fixes | [openamer-latest.apk](https://github.com/openamer-max/android/releases/download/v1.3.1/openamer-latest.apk) |
+| 1.3.0 | 616 KB | `3084601b…` | RAG-Wissensbasis eingebaut | [openamer-latest.apk](https://github.com/openamer-max/android/releases/download/v1.3.0/openamer-latest.apk) |
 | 1.2.0 | 604 KB | `d69fa36d…` | Original-Build | [OpenAmer-1.2.0-android.apk](https://github.com/openamer-max/android/releases/download/v1.2.0/OpenAmer-1.2.0-android.apk) |
 | 1.1.0 | 595 KB | `c593dd25…` | Erster Build | [OpenAmer-1.1.0-android.apk](https://github.com/openamer-max/android/releases/download/v1.1.0/OpenAmer-1.1.0-android.apk) |
 
@@ -28,19 +29,16 @@ https://raw.githubusercontent.com/openamer-max/android/main/OpenAmer-1.1.0-andro
 > Hinweis: `github.com/openamer-max/android/<datei>.apk` liefert **HTTP 404** —
 > GitHub zeigt unter diesem Pfad keine Datei. Nur die Links oben funktionieren.
 
-## ⚠️ Signatur — bitte lesen
+## Signatur
 
-| Version | Signaturzertifikat |
+| Version | Zertifikat |
 |---|---|
-| 1.1.0, 1.2.0 | Original: `CN=OpenAmer, OU=Mobile Division, O=OpenAmer AGI/ASI, L=Stuttgart, C=DE` |
-| **1.3.0, 1.3.1** | Neu: `CN=OpenAmer, OU=OpenAmer-max, O=Amer Sacirovic, L=Glattal, C=CH` |
+| 1.1.0, 1.2.0, **1.3.2** | Original: `CN=OpenAmer, OU=Mobile Division, O=OpenAmer AGI/ASI, L=Stuttgart, C=DE` |
+| 1.3.0, 1.3.1 | abweichend (versehentlich neu erzeugter Schlüssel) |
 
-Der private Schlüssel der Original-Builds lag nicht vor, deshalb sind 1.3.0/1.3.1 mit
-einem **neuen Schlüssel** signiert.
-
-**Folge:** Wer 1.1.0 oder 1.2.0 installiert hat, muss diese **zuerst
-deinstallieren**, bevor 1.3.0 installiert werden kann. Android verweigert
-Updates über einen Schlüsselwechsel (Signatur-Konflikt).
+**Ab 1.3.2 wieder durchgehend: Updates von 1.1.0/1.2.0 funktionieren ohne
+Deinstallation.** Nur wer 1.3.0 oder 1.3.1 installiert hat, muss einmal
+deinstallieren.
 
 ## Installation
 
