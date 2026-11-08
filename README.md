@@ -12,7 +12,8 @@ Immer die aktuellste Version — der Link bleibt gleich.
 
 | Version | Größe | SHA-256 (Anfang) | Was drin ist | Download |
 |---|---|---|---|---|
-| **1.3.0** | 616 KB | `3084601b…` | **RAG-Wissensbasis** (43 Fakten + 165 Skills, offline) | [openamer-latest.apk](https://github.com/openamer-max/android/releases/download/v1.3.0/openamer-latest.apk) |
+| **1.3.1** | 616 KB | `f3ffbda1…` | **Retrieval-Fixes** (Skill-Erkennung, Autor-Frage) — 85 % → 95 % im Eval | [openamer-latest.apk](https://github.com/openamer-max/android/releases/download/v1.3.1/openamer-latest.apk) |
+| 1.3.0 | 616 KB | `3084601b…` | RAG-Wissensbasis eingebaut (43 Fakten + 165 Skills) | [openamer-latest-1.3.0.apk](https://github.com/openamer-max/android/releases/download/v1.3.0/openamer-latest.apk) |
 | 1.2.0 | 604 KB | `d69fa36d…` | Original-Build | [OpenAmer-1.2.0-android.apk](https://github.com/openamer-max/android/releases/download/v1.2.0/OpenAmer-1.2.0-android.apk) |
 | 1.1.0 | 595 KB | `c593dd25…` | Erster Build | [OpenAmer-1.1.0-android.apk](https://github.com/openamer-max/android/releases/download/v1.1.0/OpenAmer-1.1.0-android.apk) |
 
